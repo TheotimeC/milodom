@@ -28,7 +28,7 @@ export default function ServicesPage() {
             Nos services
           </h1>
           <p className="text-xl text-white/50 max-w-2xl leading-relaxed">
-            Ménage, vitres, petit bricolage — toutes nos prestations détaillées.
+            Ménage, vitres, petit bricolage - toutes nos prestations détaillées.
           </p>
 
           <div className="flex flex-wrap gap-3 mt-10">

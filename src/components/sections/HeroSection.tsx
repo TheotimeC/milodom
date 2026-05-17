@@ -32,7 +32,7 @@ export default function HeroSection() {
           {/* Badge */}
           <div className="inline-flex items-center gap-2 bg-white/[0.08] backdrop-blur-sm text-white/80 px-4 py-2 rounded-full text-sm font-medium mb-10 border border-white/[0.08]">
             <div className="w-2 h-2 bg-red-500 rounded-full animate-pulse-soft" />
-            Services à la personne · Strasbourg et alentours
+            Services à la personne · Haguenau et alentours, Strasbourg
           </div>
 
           {/* Headline */}
@@ -51,8 +51,8 @@ export default function HeroSection() {
 
           {/* Subheadline */}
           <p className="text-xl md:text-2xl text-white/60 leading-relaxed max-w-2xl mb-12">
-            Ménage, vitres, petit bricolage — un service professionnel,
-            discret et fiable, en toute confiance.
+            Ménage, vitres, petit bricolage - un service professionnel,
+            efficace et fiable, en toute confiance.
           </p>
 
           {/* CTAs */}

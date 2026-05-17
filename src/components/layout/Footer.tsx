@@ -27,7 +27,7 @@ export default function Footer() {
             </div>
             <p className="text-white/40 text-[15px] leading-relaxed">
               Services à la personne à domicile. Votre partenaire de confiance
-              à Strasbourg et alentours.
+              à Haguenau et alentours, Strasbourg.
             </p>
           </div>
 
@@ -84,7 +84,7 @@ export default function Footer() {
               <li>
                 <div className="flex items-center gap-3 text-white/50 text-[15px]">
                   <MapPin className="w-4 h-4 text-red-500 shrink-0" />
-                  Strasbourg et alentours
+                  Haguenau et alentours, Strasbourg
                 </div>
               </li>
             </ul>

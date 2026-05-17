@@ -40,11 +40,11 @@ export default function AboutPage() {
           <p className="text-xl text-gray-500 leading-relaxed mb-6">
             <strong className="text-gray-900">{siteConfig.name}</strong>{" "}
             est une entreprise locale spécialisée dans les services à la personne
-            à domicile pour les particuliers. Basée à Strasbourg, nous intervenons
+            à domicile pour les particuliers. Basée à Haguenau et alentours, Strasbourg, nous intervenons
             avec proximité et réactivité pour prendre soin de votre intérieur.
           </p>
           <p className="text-[15px] text-gray-400 leading-relaxed mb-6">
-            Notre mission : vous offrir un service fiable, discret et soigné.
+            Notre mission : vous offrir un service fiable, efficace et soigné.
             Que ce soit pour le ménage, le nettoyage de vos vitres ou de petites
             réparations, nous mettons notre professionnalisme au service de votre
             tranquillité.

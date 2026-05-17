@@ -25,7 +25,7 @@ export default function HomePage() {
             <p className="text-xl text-gray-500 leading-relaxed max-w-3xl mx-auto mb-6">
               <strong className="text-gray-900">{siteConfig.name}</strong> est une entreprise
               locale spécialisée dans les services à la personne à domicile. Nous accompagnons
-              les particuliers de Strasbourg et alentours dans l&apos;entretien de leur maison
+              les particuliers de Haguenau et alentours, Strasbourg dans l&apos;entretien de leur maison
               avec rigueur, discrétion et professionnalisme.
             </p>
             <p className="text-[15px] text-gray-400 leading-relaxed max-w-2xl mx-auto">

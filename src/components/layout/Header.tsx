@@ -32,7 +32,7 @@ export default function Header() {
           <Link href="/" className="flex items-center gap-3 group" id="header-logo">
             <Image
               src="/Logo_Milodom.png"
-              alt="MILODOM — Services à la personne à domicile"
+              alt="MILODOM - Services à la personne à domicile"
               width={200}
               height={120}
               className={`h-12 w-auto transition-all duration-300 ${scrolled ? "" : "brightness-0 invert"
@@ -41,7 +41,7 @@ export default function Header() {
             />
             <span className={`text-xl font-black tracking-tight transition-colors duration-300 ${scrolled ? "text-gray-900" : "text-white"
               }`}>
-              MILODOM
+              MILODOM.FR
             </span>
           </Link>
 

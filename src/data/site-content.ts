@@ -8,7 +8,7 @@ export const siteConfig = {
   tagline: "Services à la personne à domicile",
   slogan: "Simplifiez votre quotidien avec un service de qualité",
   description:
-    "MILODOM est une entreprise locale spécialisée dans les services à la personne à domicile pour les particuliers. Ménage, vitres, petit bricolage — un service fiable, discret et soigné, en toute confiance.",
+    "MILODOM est une entreprise locale spécialisée dans les services à la personne à domicile pour les particuliers. Ménage, vitres, petit bricolage - un service fiable, efficace et soigné, en toute confiance.",
   phone: "06 89 68 79 96",
   phoneHref: "tel:+33689687996",
   email: "milodom-service@orange.fr",
@@ -38,7 +38,7 @@ export const services: Service[] = [
     title: "Ménage à domicile",
     shortTitle: "Ménage",
     description:
-      "Un entretien régulier ou ponctuel de votre logement, réalisé avec soin et adapté à vos besoins. Cuisine, sanitaires, sols, poussière — chaque pièce est nettoyée avec rigueur pour un intérieur impeccable.",
+      "Un entretien régulier ou ponctuel de votre logement, réalisé avec soin et adapté à vos besoins. Cuisine, sanitaires, sols, poussière - chaque pièce est nettoyée avec rigueur pour un intérieur impeccable.",
     icon: "Sparkles",
     benefits: [
       "Entretien régulier ou ponctuel selon vos besoins",
@@ -55,9 +55,9 @@ export const services: Service[] = [
       "Nettoyage des pièces de vie (salon, chambres)",
     ],
     metaTitle:
-      "Ménage à domicile à Strasbourg | MILODOM — Services à la personne",
+      "Ménage à domicile à Haguenau et alentours, Strasbourg | MILODOM - Services à la personne",
     metaDescription:
-      "Service de ménage à domicile à Strasbourg et alentours. Entretien régulier ou ponctuel, travail soigné. Devis gratuit. Crédit d'impôt 50%.",
+      "Service de ménage à domicile à Haguenau et alentours, Strasbourg. Entretien régulier ou ponctuel, travail soigné. Devis gratuit. Crédit d'impôt 50%.",
   },
   {
     slug: "vitres-verandas",
@@ -80,9 +80,9 @@ export const services: Service[] = [
       "Nettoyage de surfaces vitrées spécifiques",
     ],
     metaTitle:
-      "Nettoyage de vitres et vérandas à Strasbourg | MILODOM",
+      "Nettoyage de vitres et vérandas à Haguenau et alentours, Strasbourg | MILODOM",
     metaDescription:
-      "Nettoyage professionnel de vitres, baies vitrées et vérandas à Strasbourg. Résultat sans traces, intervention efficace. Devis gratuit.",
+      "Nettoyage professionnel de vitres, baies vitrées et vérandas à Haguenau et alentours, Strasbourg. Résultat sans traces, intervention efficace. Devis gratuit.",
   },
   {
     slug: "petit-bricolage",
@@ -106,9 +106,9 @@ export const services: Service[] = [
       "Remplacement de prises et interrupteurs simples",
     ],
     metaTitle:
-      "Petit bricolage à domicile à Strasbourg | MILODOM",
+      "Petit bricolage à domicile à Haguenau et alentours, Strasbourg | MILODOM",
     metaDescription:
-      "Petit bricolage et petites réparations à domicile à Strasbourg. Étagères, luminaires, joints, prises. Interventions précises. Devis gratuit.",
+      "Petit bricolage et petites réparations à domicile à Haguenau et alentours, Strasbourg. Étagères, luminaires, joints, prises. Interventions précises. Devis gratuit.",
   },
 ];
 
@@ -133,10 +133,10 @@ export const interventionZone = {
   title: "Zone d'intervention",
   type: "text" as "text" | "list",
   // Mode texte (formulation générale)
-  text: "Strasbourg et alentours",
+  text: "Haguenau et alentours, Strasbourg",
   // Mode liste (communes spécifiques) — à compléter si nécessaire
   cities: [
-    "Strasbourg",
+    "Haguenau et alentours, Strasbourg",
   ],
 } as const;
 
@@ -183,7 +183,7 @@ export const whyChooseUs = {
   items: [
     {
       title: "Entreprise locale",
-      description: "Basée à Strasbourg, nous intervenons rapidement et avec proximité.",
+      description: "Basée à Haguenau et alentours, Strasbourg, nous intervenons rapidement et avec proximité.",
       icon: "MapPin",
     },
     {
@@ -238,24 +238,24 @@ export const navigation = [
 
 export const pageSeo = {
   home: {
-    title: "MILODOM — Services à la personne à domicile à Strasbourg",
+    title: "MILODOM - Services à la personne à domicile à Haguenau et alentours, Strasbourg",
     description:
-      "MILODOM, votre partenaire local pour les services à la personne à domicile à Strasbourg. Ménage, vitres, petit bricolage. Devis gratuit, crédit d'impôt 50%.",
+      "MILODOM, votre partenaire local pour les services à la personne à domicile à Haguenau et alentours, Strasbourg. Ménage, vitres, petit bricolage. Devis gratuit, crédit d'impôt 50%.",
   },
   services: {
-    title: "Nos services | MILODOM — Ménage, Vitres, Bricolage à domicile",
+    title: "Nos services | MILODOM - Ménage, Vitres, Bricolage à domicile",
     description:
-      "Découvrez les prestations de MILODOM : ménage à domicile, nettoyage de vitres et vérandas, petit bricolage. Services de qualité à Strasbourg et alentours.",
+      "Découvrez les prestations de MILODOM : ménage à domicile, nettoyage de vitres et vérandas, petit bricolage. Services de qualité à Haguenau et alentours, Strasbourg.",
   },
   about: {
     title: "À propos de MILODOM | Entreprise locale de services à la personne",
     description:
-      "MILODOM est une entreprise locale spécialisée dans les services à la personne à Strasbourg. Découvrez notre mission, nos valeurs et nos engagements.",
+      "MILODOM est une entreprise locale spécialisée dans les services à la personne à Haguenau et alentours, Strasbourg. Découvrez notre mission, nos valeurs et nos engagements.",
   },
   contact: {
-    title: "Contact & Devis gratuit | MILODOM — Services à domicile",
+    title: "Contact & Devis gratuit | MILODOM - Services à domicile",
     description:
-      "Contactez MILODOM pour un devis gratuit et sans engagement. Ménage, vitres, petit bricolage à domicile à Strasbourg. Réponse rapide garantie.",
+      "Contactez MILODOM pour un devis gratuit et sans engagement. Ménage, vitres, petit bricolage à domicile à Haguenau et alentours, Strasbourg. Réponse rapide garantie.",
   },
   mentions: {
     title: "Mentions légales | MILODOM",
