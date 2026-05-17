@@ -8,7 +8,7 @@ export const siteConfig = {
   tagline: "Services à la personne à domicile",
   slogan: "Simplifiez votre quotidien avec un service de qualité",
   description:
-    "MILODOM est une entreprise locale spécialisée dans les services à la personne à domicile pour les particuliers. Ménage, vitres, petit bricolage - un service fiable, efficace et soigné, en toute confiance.",
+    "MILODOM est une entreprise locale spécialisée dans les services à la personne à domicile pour les particuliers et les professionnels. Ménage, vitres, petit bricolage, nettoyage de bureaux - un service fiable, efficace et soigné, en toute confiance.",
   phone: "06 89 68 79 96",
   phoneHref: "tel:+33689687996",
   email: "milodom-service@orange.fr",
@@ -109,6 +109,32 @@ export const services: Service[] = [
       "Petit bricolage à domicile à Haguenau et alentours, Strasbourg | MILODOM",
     metaDescription:
       "Petit bricolage et petites réparations à domicile à Haguenau et alentours, Strasbourg. Étagères, luminaires, joints, prises. Interventions précises. Devis gratuit.",
+  },
+  {
+    slug: "nettoyage-bureaux",
+    title: "Nettoyage de bureaux",
+    shortTitle: "Bureaux",
+    description:
+      "Un entretien soigné de vos espaces de travail pour un environnement propre et agréable. Bureaux, salles de réunion, sanitaires — chaque espace est nettoyé avec rigueur pour favoriser votre bien-être au travail.",
+    icon: "Building2",
+    benefits: [
+      "Entretien régulier ou ponctuel selon vos besoins",
+      "Nettoyage complet des espaces de travail",
+      "Travail discret et efficace",
+      "Intervention possible en dehors des heures de bureau",
+      "Environnement de travail propre et sain",
+    ],
+    examples: [
+      "Nettoyage des bureaux et postes de travail",
+      "Entretien des salles de réunion",
+      "Nettoyage des espaces communs et couloirs",
+      "Entretien des sanitaires",
+      "Aspiration et lavage des sols",
+    ],
+    metaTitle:
+      "Nettoyage de bureaux à Haguenau et alentours, Strasbourg | MILODOM",
+    metaDescription:
+      "Service de nettoyage et ménage de bureaux à Haguenau et alentours, Strasbourg. Entretien régulier ou ponctuel, travail soigné et discret. Devis gratuit.",
   },
 ];
 
@@ -240,12 +266,12 @@ export const pageSeo = {
   home: {
     title: "MILODOM - Services à la personne à domicile à Haguenau et alentours, Strasbourg",
     description:
-      "MILODOM, votre partenaire local pour les services à la personne à domicile à Haguenau et alentours, Strasbourg. Ménage, vitres, petit bricolage. Devis gratuit, crédit d'impôt 50%.",
+      "MILODOM, votre partenaire local pour les services à la personne à domicile à Haguenau et alentours, Strasbourg. Ménage, vitres, petit bricolage, nettoyage de bureaux. Devis gratuit, crédit d'impôt 50%.",
   },
   services: {
-    title: "Nos services | MILODOM - Ménage, Vitres, Bricolage à domicile",
+    title: "Nos services | MILODOM - Ménage, Vitres, Bricolage, Bureaux",
     description:
-      "Découvrez les prestations de MILODOM : ménage à domicile, nettoyage de vitres et vérandas, petit bricolage. Services de qualité à Haguenau et alentours, Strasbourg.",
+      "Découvrez les prestations de MILODOM : ménage à domicile, nettoyage de vitres et vérandas, petit bricolage, nettoyage de bureaux. Services de qualité à Haguenau et alentours, Strasbourg.",
   },
   about: {
     title: "À propos de MILODOM | Entreprise locale de services à la personne",

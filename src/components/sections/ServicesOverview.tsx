@@ -12,17 +12,17 @@ export default function ServicesOverview() {
             Nos services
           </span>
           <h2 className="text-4xl md:text-5xl font-black text-gray-900 tracking-tight mb-6">
-            Tout pour votre{" "}
-            <span className="text-gradient">maison</span>
+            Pour votre maison{" "}
+            <span className="text-gradient">&amp; vos bureaux</span>
           </h2>
           <p className="text-lg text-gray-500 max-w-2xl mx-auto leading-relaxed">
-            Des prestations de qualité pour l&apos;entretien et le confort de votre intérieur,
+            Des prestations de qualité pour l&apos;entretien de votre domicile et de vos espaces professionnels,
             réalisées par des professionnels de confiance.
           </p>
         </div>
 
         {/* Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {services.map((service, i) => {
             const Icon = getIcon(service.icon);
             return (
